@@ -5,5 +5,8 @@
     <Compile Update="View\UserControls\LeftMenuBar.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\UserControls\TaskCard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
