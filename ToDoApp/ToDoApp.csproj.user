@@ -5,6 +5,9 @@
     <Compile Update="AddTaskPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="MyTasksPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\UserControls\LeftMenuBar.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

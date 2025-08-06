@@ -22,7 +22,10 @@ namespace ToDoApp
         public MainWindow()
         {
             InitializeComponent();
-            DataContext = new MainViewModel();
+            ViewModel = new MainViewModel();
+            DataContext = ViewModel;
+
+            MainWindowsFrame.Navigate(new MyTasksPage(ViewModel));
         }
 
 

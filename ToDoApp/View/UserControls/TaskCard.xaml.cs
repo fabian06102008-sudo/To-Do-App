@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ToDoApp.Model;
 
 namespace ToDoApp.View.UserControls
 {
@@ -23,6 +24,18 @@ namespace ToDoApp.View.UserControls
         public TaskCard()
         {
             InitializeComponent();
+        }
+
+        private void CheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+            if (Checkbox.IsChecked == true)
+            {
+                Opacity = 0.5;
+            }
+            else
+            {
+                Opacity = 1; 
+            }
         }
     }
 }

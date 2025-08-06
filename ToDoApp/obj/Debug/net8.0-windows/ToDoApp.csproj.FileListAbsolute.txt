@@ -50,3 +50,5 @@ C:\Users\JuanR\Desktop\C#\Projects\ToDoApp\ToDoApp\obj\Debug\net8.0-windows\View
 C:\Users\JuanR\Desktop\C#\Projects\ToDoApp\ToDoApp\obj\Debug\net8.0-windows\View\UserControls\TaskCard.baml
 C:\Users\JuanR\Desktop\C#\Projects\ToDoApp\ToDoApp\obj\Debug\net8.0-windows\AddTaskPage.g.cs
 C:\Users\JuanR\Desktop\C#\Projects\ToDoApp\ToDoApp\obj\Debug\net8.0-windows\AddTaskPage.baml
+C:\Users\JuanR\Desktop\C#\Projects\ToDoApp\ToDoApp\obj\Debug\net8.0-windows\MyTasksPage.g.cs
+C:\Users\JuanR\Desktop\C#\Projects\ToDoApp\ToDoApp\obj\Debug\net8.0-windows\MyTasksPage.baml

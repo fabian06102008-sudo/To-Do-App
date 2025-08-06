@@ -23,20 +23,24 @@ namespace ToDoApp
     public partial class AddTaskPage : Page
     {
         public MainViewModel ViewModel { get; }
-        public AddTaskPage()
+        public AddTaskPage(MainViewModel vm)
         {
             InitializeComponent();
-            DataContext = new MainViewModel();
+            ViewModel = vm;
+            DataContext = vm;
         }
 
         private void OnAddBtn_Click(object sender, RoutedEventArgs e)
         {
             Todo todo = new Todo()
             {
-                Description = TaskNameAdd.Text
+                Description = TaskNameAdd.Text,
+                IsDone = false
             };
 
             ViewModel.AllTodos.Add(todo);
+
+            TaskNameAdd.Text = "";
         }
     }
 }

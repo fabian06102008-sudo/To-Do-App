@@ -1,6 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
 using ToDoApp.ViewModel;
+using ToDoApp.View;
 
 
 namespace ToDoApp.View.UserControls
@@ -16,9 +17,22 @@ namespace ToDoApp.View.UserControls
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void OnMyTasksBtn(object sender, RoutedEventArgs e)
         {
+            var mainWin = Application.Current.MainWindow as MainWindow;
+            if (mainWin != null)
+            {
+                mainWin.MainWindowsFrame.Navigate(new MyTasksPage(mainWin.ViewModel));
+            }
+        }
 
+        private void OnAddTaskBtn(object sender, RoutedEventArgs e)
+        {
+            var mainWin = Application.Current.MainWindow as MainWindow;
+            if (mainWin != null)
+            {
+                mainWin.MainWindowsFrame.Navigate(new AddTaskPage(mainWin.ViewModel));
+            }
         }
     }
 }

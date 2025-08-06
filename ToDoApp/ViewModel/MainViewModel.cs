@@ -16,7 +16,7 @@ namespace ToDoApp.ViewModel
         {
             _allTodos = new ObservableCollection<Todo>()
             {
-                new Todo() {Description = "Get out with friends"}
+                new Todo() {Description = "Get out with friends", IsDone = false}
             };
 
         }

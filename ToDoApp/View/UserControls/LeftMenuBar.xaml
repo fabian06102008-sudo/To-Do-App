@@ -14,10 +14,10 @@
         </Grid.RowDefinitions>
 
         <Rectangle Fill="IndianRed" Grid.Row="0"/>
-        <Button Content="Add task" Grid.Row="0" Foreground="WhiteSmoke" FontSize="30" FontWeight="Medium" VerticalAlignment="Center" HorizontalAlignment="Center" Background="Transparent" BorderThickness="0"/>
+        <Button Content="Add task" Grid.Row="0" Foreground="WhiteSmoke" FontSize="30" FontWeight="Medium" VerticalAlignment="Center" HorizontalAlignment="Center" Background="Transparent" BorderThickness="0" Click="OnAddTaskBtn"/>
 
         <Rectangle Fill="IndianRed"  Grid.Row="1"/>
-        <Button Content="My tasks" Grid.Row="1" Foreground="WhiteSmoke" FontSize="30" FontWeight="Medium" VerticalAlignment="Center" HorizontalAlignment="Center" Background="Transparent" BorderThickness="0" Click="Button_Click"/>
+        <Button Content="My tasks" Grid.Row="1" Foreground="WhiteSmoke" FontSize="30" FontWeight="Medium" VerticalAlignment="Center" HorizontalAlignment="Center" Background="Transparent" BorderThickness="0" Click="OnMyTasksBtn"/>
 
         <Rectangle Fill="IndianRed"  Grid.Row="2"/>
     </Grid>

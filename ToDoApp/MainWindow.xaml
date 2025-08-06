@@ -8,43 +8,6 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="50"/>
-            <RowDefinition />
-        </Grid.RowDefinitions>
-
-        <Rectangle Fill="IndianRed" Grid.Row="0"/>
-        <TextBlock Text="Todo app" Foreground="WhiteSmoke" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30" FontWeight="Medium" />
-
-
-        <Grid Grid.Row="1">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="20*"/>
-                <ColumnDefinition Width="80*"/>
-            </Grid.ColumnDefinitions>
-            <UserControls:LeftMenuBar Grid.Column="0"/>
-            
-            <!-- Main content -->
-
-            <Grid Grid.Column="1">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="15*" />
-                    <RowDefinition Height="85*"/>
-                </Grid.RowDefinitions>
-
-                <TextBox Grid.Row="0" Text="My tasks" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="30" Margin="0, 5, 0, 0" BorderThickness="0"/>
-
-                <ListView Grid.Row="1" ItemsSource="{Binding AllTodos}">
-                    <ListView.ItemTemplate>
-                        <DataTemplate>
-                            <UserControls:TaskCard/>
-                        </DataTemplate>
-                    </ListView.ItemTemplate>
-                </ListView>
-            </Grid>
-
-            
-
-        </Grid>
+        <Frame x:Name="MainWindowsFrame" NavigationUIVisibility="Hidden"/>
     </Grid>
 </Window>
