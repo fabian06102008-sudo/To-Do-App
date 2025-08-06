@@ -13,6 +13,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using ToDoApp.ViewModel;
+using ToDoApp.Model;
+using System.ComponentModel;
 
 namespace ToDoApp
 {
@@ -22,7 +24,26 @@ namespace ToDoApp
         public MyTasksPage(MainViewModel vm)
         {
             InitializeComponent();
+            ViewModel = vm;
             DataContext = vm;
+        }
+
+        private void OnClearFinishedTaskBtn(object sender, RoutedEventArgs e)
+        {
+            List<Todo> tempListToDelete = new List<Todo>();
+            
+            foreach (Todo todo in ViewModel.AllTodos)
+            {
+                if (todo.IsDone == true)
+                {
+                    tempListToDelete.Add(todo);
+                }
+            }
+
+            foreach (Todo todo in tempListToDelete)
+            {
+                ViewModel.AllTodos.Remove(todo);
+            }
         }
     }
 }

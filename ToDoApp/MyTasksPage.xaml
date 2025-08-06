@@ -51,7 +51,7 @@
                     </ListView>
 
                     <StackPanel Grid.Row="1">
-                        <Button Content="Clear finished tasks" Background="IndianRed" Width="150" Margin="20" Foreground="White" FontSize="15"/>
+                        <Button Content="Clear finished tasks" Background="IndianRed" Width="150" Margin="20" Foreground="White" FontSize="15" Click="OnClearFinishedTaskBtn"/>
                     </StackPanel>
                 </Grid>
             </Grid>

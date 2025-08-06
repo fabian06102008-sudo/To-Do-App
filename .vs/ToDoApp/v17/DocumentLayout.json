@@ -3,36 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\ToDoApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{01397540-1826-43E9-87D3-1C4354D42EA5}|ToDoApp\\ToDoApp.csproj|c:\\users\\juanr\\desktop\\c#\\projects\\todoapp\\todoapp\\view\\usercontrols\\taskcard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01397540-1826-43E9-87D3-1C4354D42EA5}|ToDoApp\\ToDoApp.csproj|solutionrelative:todoapp\\view\\usercontrols\\taskcard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01397540-1826-43E9-87D3-1C4354D42EA5}|ToDoApp\\ToDoApp.csproj|c:\\users\\juanr\\desktop\\c#\\projects\\todoapp\\todoapp\\addtaskpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01397540-1826-43E9-87D3-1C4354D42EA5}|ToDoApp\\ToDoApp.csproj|solutionrelative:todoapp\\addtaskpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01397540-1826-43E9-87D3-1C4354D42EA5}|ToDoApp\\ToDoApp.csproj|c:\\users\\juanr\\desktop\\c#\\projects\\todoapp\\todoapp\\addtaskpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{01397540-1826-43E9-87D3-1C4354D42EA5}|ToDoApp\\ToDoApp.csproj|solutionrelative:todoapp\\addtaskpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01397540-1826-43E9-87D3-1C4354D42EA5}|ToDoApp\\ToDoApp.csproj|c:\\users\\juanr\\desktop\\c#\\projects\\todoapp\\todoapp\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01397540-1826-43E9-87D3-1C4354D42EA5}|ToDoApp\\ToDoApp.csproj|solutionrelative:todoapp\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01397540-1826-43E9-87D3-1C4354D42EA5}|ToDoApp\\ToDoApp.csproj|c:\\users\\juanr\\desktop\\c#\\projects\\todoapp\\todoapp\\model\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01397540-1826-43E9-87D3-1C4354D42EA5}|ToDoApp\\ToDoApp.csproj|solutionrelative:todoapp\\model\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01397540-1826-43E9-87D3-1C4354D42EA5}|ToDoApp\\ToDoApp.csproj|c:\\users\\juanr\\desktop\\c#\\projects\\todoapp\\todoapp\\view\\usercontrols\\taskcard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{01397540-1826-43E9-87D3-1C4354D42EA5}|ToDoApp\\ToDoApp.csproj|solutionrelative:todoapp\\view\\usercontrols\\taskcard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{01397540-1826-43E9-87D3-1C4354D42EA5}|ToDoApp\\ToDoApp.csproj|c:\\users\\juanr\\desktop\\c#\\projects\\todoapp\\todoapp\\mytaskspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01397540-1826-43E9-87D3-1C4354D42EA5}|ToDoApp\\ToDoApp.csproj|solutionrelative:todoapp\\mytaskspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01397540-1826-43E9-87D3-1C4354D42EA5}|ToDoApp\\ToDoApp.csproj|c:\\users\\juanr\\desktop\\c#\\projects\\todoapp\\todoapp\\mytaskspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{01397540-1826-43E9-87D3-1C4354D42EA5}|ToDoApp\\ToDoApp.csproj|solutionrelative:todoapp\\mytaskspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01397540-1826-43E9-87D3-1C4354D42EA5}|ToDoApp\\ToDoApp.csproj|c:\\users\\juanr\\desktop\\c#\\projects\\todoapp\\todoapp\\mytaskspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01397540-1826-43E9-87D3-1C4354D42EA5}|ToDoApp\\ToDoApp.csproj|solutionrelative:todoapp\\mytaskspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01397540-1826-43E9-87D3-1C4354D42EA5}|ToDoApp\\ToDoApp.csproj|c:\\users\\juanr\\desktop\\c#\\projects\\todoapp\\todoapp\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01397540-1826-43E9-87D3-1C4354D42EA5}|ToDoApp\\ToDoApp.csproj|solutionrelative:todoapp\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01397540-1826-43E9-87D3-1C4354D42EA5}|ToDoApp\\ToDoApp.csproj|c:\\users\\juanr\\desktop\\c#\\projects\\todoapp\\todoapp\\addtaskpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{01397540-1826-43E9-87D3-1C4354D42EA5}|ToDoApp\\ToDoApp.csproj|solutionrelative:todoapp\\addtaskpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01397540-1826-43E9-87D3-1C4354D42EA5}|ToDoApp\\ToDoApp.csproj|c:\\users\\juanr\\desktop\\c#\\projects\\todoapp\\todoapp\\addtaskpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01397540-1826-43E9-87D3-1C4354D42EA5}|ToDoApp\\ToDoApp.csproj|solutionrelative:todoapp\\addtaskpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01397540-1826-43E9-87D3-1C4354D42EA5}|ToDoApp\\ToDoApp.csproj|c:\\users\\juanr\\desktop\\c#\\projects\\todoapp\\todoapp\\model\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01397540-1826-43E9-87D3-1C4354D42EA5}|ToDoApp\\ToDoApp.csproj|solutionrelative:todoapp\\model\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01397540-1826-43E9-87D3-1C4354D42EA5}|ToDoApp\\ToDoApp.csproj|c:\\users\\juanr\\desktop\\c#\\projects\\todoapp\\todoapp\\view\\usercontrols\\taskcard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01397540-1826-43E9-87D3-1C4354D42EA5}|ToDoApp\\ToDoApp.csproj|solutionrelative:todoapp\\view\\usercontrols\\taskcard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01397540-1826-43E9-87D3-1C4354D42EA5}|ToDoApp\\ToDoApp.csproj|c:\\users\\juanr\\desktop\\c#\\projects\\todoapp\\todoapp\\view\\usercontrols\\taskcard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{01397540-1826-43E9-87D3-1C4354D42EA5}|ToDoApp\\ToDoApp.csproj|solutionrelative:todoapp\\view\\usercontrols\\taskcard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,15 +42,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TaskCard.xaml",
+              "DocumentMoniker": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\ToDoApp\\ToDoApp\\View\\UserControls\\TaskCard.xaml",
+              "RelativeDocumentMoniker": "ToDoApp\\View\\UserControls\\TaskCard.xaml",
+              "ToolTip": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\ToDoApp\\ToDoApp\\View\\UserControls\\TaskCard.xaml",
+              "RelativeToolTip": "ToDoApp\\View\\UserControls\\TaskCard.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-06T15:15:16.193Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Todo.cs",
+              "DocumentMoniker": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\ToDoApp\\ToDoApp\\Model\\Todo.cs",
+              "RelativeDocumentMoniker": "ToDoApp\\Model\\Todo.cs",
+              "ToolTip": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\ToDoApp\\ToDoApp\\Model\\Todo.cs",
+              "RelativeToolTip": "ToDoApp\\Model\\Todo.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T15:33:43.652Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
+              "Title": "TaskCard.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\ToDoApp\\ToDoApp\\View\\UserControls\\TaskCard.xaml.cs",
+              "RelativeDocumentMoniker": "ToDoApp\\View\\UserControls\\TaskCard.xaml.cs",
+              "ToolTip": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\ToDoApp\\ToDoApp\\View\\UserControls\\TaskCard.xaml.cs",
+              "RelativeToolTip": "ToDoApp\\View\\UserControls\\TaskCard.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T15:15:17.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AddTaskPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\ToDoApp\\ToDoApp\\AddTaskPage.xaml.cs",
               "RelativeDocumentMoniker": "ToDoApp\\AddTaskPage.xaml.cs",
@@ -58,89 +98,58 @@
               "RelativeToolTip": "ToDoApp\\AddTaskPage.xaml.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAAACgAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T15:34:13.21Z"
+              "WhenOpened": "2025-08-06T15:34:13.21Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AddTaskPage.xaml",
               "DocumentMoniker": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\ToDoApp\\ToDoApp\\AddTaskPage.xaml",
               "RelativeDocumentMoniker": "ToDoApp\\AddTaskPage.xaml",
               "ToolTip": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\ToDoApp\\ToDoApp\\AddTaskPage.xaml",
               "RelativeToolTip": "ToDoApp\\AddTaskPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-08-06T15:34:12.275Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Todo.cs",
-              "DocumentMoniker": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\ToDoApp\\ToDoApp\\Model\\Todo.cs",
-              "RelativeDocumentMoniker": "ToDoApp\\Model\\Todo.cs",
-              "ToolTip": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\ToDoApp\\ToDoApp\\Model\\Todo.cs",
-              "RelativeToolTip": "ToDoApp\\Model\\Todo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T15:33:43.652Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TaskCard.xaml",
-              "DocumentMoniker": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\ToDoApp\\ToDoApp\\View\\UserControls\\TaskCard.xaml",
-              "RelativeDocumentMoniker": "ToDoApp\\View\\UserControls\\TaskCard.xaml",
-              "ToolTip": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\ToDoApp\\ToDoApp\\View\\UserControls\\TaskCard.xaml",
-              "RelativeToolTip": "ToDoApp\\View\\UserControls\\TaskCard.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-08-06T15:15:16.193Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TaskCard.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\ToDoApp\\ToDoApp\\View\\UserControls\\TaskCard.xaml.cs",
-              "RelativeDocumentMoniker": "ToDoApp\\View\\UserControls\\TaskCard.xaml.cs",
-              "ToolTip": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\ToDoApp\\ToDoApp\\View\\UserControls\\TaskCard.xaml.cs",
-              "RelativeToolTip": "ToDoApp\\View\\UserControls\\TaskCard.xaml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T15:15:17.267Z",
+              "WhenOpened": "2025-08-06T15:34:12.275Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\ToDoApp\\ToDoApp\\ViewModel\\MainViewModel.cs",
               "RelativeDocumentMoniker": "ToDoApp\\ViewModel\\MainViewModel.cs",
               "ToolTip": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\ToDoApp\\ToDoApp\\ViewModel\\MainViewModel.cs",
               "RelativeToolTip": "ToDoApp\\ViewModel\\MainViewModel.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T14:34:41.434Z"
+              "WhenOpened": "2025-08-06T14:34:41.434Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "MyTasksPage.xaml",
               "DocumentMoniker": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\ToDoApp\\ToDoApp\\MyTasksPage.xaml",
               "RelativeDocumentMoniker": "ToDoApp\\MyTasksPage.xaml",
               "ToolTip": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\ToDoApp\\ToDoApp\\MyTasksPage.xaml",
               "RelativeToolTip": "ToDoApp\\MyTasksPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-08-06T14:29:21.333Z"
+              "WhenOpened": "2025-08-06T14:29:21.333Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "MyTasksPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\ToDoApp\\ToDoApp\\MyTasksPage.xaml.cs",
               "RelativeDocumentMoniker": "ToDoApp\\MyTasksPage.xaml.cs",
               "ToolTip": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\ToDoApp\\ToDoApp\\MyTasksPage.xaml.cs",
               "RelativeToolTip": "ToDoApp\\MyTasksPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAACwAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T14:36:55.035Z"
+              "WhenOpened": "2025-08-06T14:36:55.035Z",
+              "EditorCaption": ""
             }
           ]
         }

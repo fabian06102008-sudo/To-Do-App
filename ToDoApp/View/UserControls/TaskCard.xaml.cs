@@ -1,18 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using ToDoApp.Model;
+
 
 namespace ToDoApp.View.UserControls
 {
@@ -28,13 +17,41 @@ namespace ToDoApp.View.UserControls
 
         private void CheckBox_Checked(object sender, RoutedEventArgs e)
         {
+            CheckBox chk = sender as CheckBox;
+
+            if (chk != null)
+            {
+                var todo = chk.DataContext as Todo;
+                
+                if (todo != null)
+                {
+                    todo.IsDone = chk.IsChecked == true;
+                }
+            }
+
             if (Checkbox.IsChecked == true)
             {
                 Opacity = 0.5;
             }
-            else
+        }
+
+        private void CheckBox_Unchecked(object sender, RoutedEventArgs e)
+        {
+            CheckBox chk = sender as CheckBox;
+
+            if (chk != null)
             {
-                Opacity = 1; 
+                var todo = chk.DataContext as Todo;
+
+                if (todo != null)
+                {
+                    todo.IsDone = chk.IsChecked == true;
+                }
+            }
+
+            if (chk.IsChecked == false)
+            {
+                Opacity = 1;
             }
         }
     }
