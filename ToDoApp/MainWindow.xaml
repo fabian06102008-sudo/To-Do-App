@@ -33,7 +33,14 @@
                 </Grid.RowDefinitions>
 
                 <TextBox Grid.Row="0" Text="My tasks" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="30" Margin="0, 5, 0, 0" BorderThickness="0"/>
-                <UserControls:TaskCard Grid.Row="1"/>
+
+                <ListView Grid.Row="1" ItemsSource="{Binding AllTodos}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <UserControls:TaskCard/>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
             </Grid>
 
             

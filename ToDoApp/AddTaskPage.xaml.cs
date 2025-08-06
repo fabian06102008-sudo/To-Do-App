@@ -1,5 +1,8 @@
-﻿using System.ComponentModel;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -10,21 +13,30 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using ToDoApp.ViewModel;
+using ToDoApp.Model;
 
 namespace ToDoApp
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for AddTaskPage.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class AddTaskPage : Page
     {
         public MainViewModel ViewModel { get; }
-        public MainWindow()
+        public AddTaskPage()
         {
             InitializeComponent();
             DataContext = new MainViewModel();
         }
 
+        private void OnAddBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Todo todo = new Todo()
+            {
+                Description = TaskNameAdd.Text
+            };
 
+            ViewModel.AllTodos.Add(todo);
+        }
     }
 }

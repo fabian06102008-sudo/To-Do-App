@@ -8,7 +8,7 @@
              d:DesignHeight="50" d:DesignWidth="300">
     <Grid Background="White">
         <StackPanel Orientation="Horizontal">
-            <CheckBox VerticalAlignment="Center" Content="Task" >
+            <CheckBox VerticalAlignment="Center" Content="{Binding Description}" IsChecked="{Binding IsDone}" >
                 <CheckBox.LayoutTransform>
                     <ScaleTransform ScaleX="2" ScaleY="2" />
                 </CheckBox.LayoutTransform>
