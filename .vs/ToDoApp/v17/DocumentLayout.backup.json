@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\ToDoApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{01397540-1826-43E9-87D3-1C4354D42EA5}|ToDoApp\\ToDoApp.csproj|c:\\users\\juanr\\desktop\\c#\\projects\\todoapp\\todoapp\\mytaskspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01397540-1826-43E9-87D3-1C4354D42EA5}|ToDoApp\\ToDoApp.csproj|solutionrelative:todoapp\\mytaskspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{01397540-1826-43E9-87D3-1C4354D42EA5}|ToDoApp\\ToDoApp.csproj|c:\\users\\juanr\\desktop\\c#\\projects\\todoapp\\todoapp\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01397540-1826-43E9-87D3-1C4354D42EA5}|ToDoApp\\ToDoApp.csproj|solutionrelative:todoapp\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{01397540-1826-43E9-87D3-1C4354D42EA5}|ToDoApp\\ToDoApp.csproj|c:\\users\\juanr\\desktop\\c#\\projects\\todoapp\\todoapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01397540-1826-43E9-87D3-1C4354D42EA5}|ToDoApp\\ToDoApp.csproj|solutionrelative:todoapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01397540-1826-43E9-87D3-1C4354D42EA5}|ToDoApp\\ToDoApp.csproj|c:\\users\\juanr\\desktop\\c#\\projects\\todoapp\\todoapp\\mytaskspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01397540-1826-43E9-87D3-1C4354D42EA5}|ToDoApp\\ToDoApp.csproj|solutionrelative:todoapp\\mytaskspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,33 +34,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Todo.cs",
               "DocumentMoniker": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\ToDoApp\\ToDoApp\\Model\\Todo.cs",
               "RelativeDocumentMoniker": "ToDoApp\\Model\\Todo.cs",
               "ToolTip": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\ToDoApp\\ToDoApp\\Model\\Todo.cs",
               "RelativeToolTip": "ToDoApp\\Model\\Todo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-06T15:33:43.652Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "MyTasksPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\ToDoApp\\ToDoApp\\MyTasksPage.xaml.cs",
               "RelativeDocumentMoniker": "ToDoApp\\MyTasksPage.xaml.cs",
               "ToolTip": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\ToDoApp\\ToDoApp\\MyTasksPage.xaml.cs",
               "RelativeToolTip": "ToDoApp\\MyTasksPage.xaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-07T21:51:51.102Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\ToDoApp\\ToDoApp\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "ToDoApp\\MainWindow.xaml.cs",
@@ -73,13 +73,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\ToDoApp\\ToDoApp\\ViewModel\\MainViewModel.cs",
               "RelativeDocumentMoniker": "ToDoApp\\ViewModel\\MainViewModel.cs",
               "ToolTip": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\ToDoApp\\ToDoApp\\ViewModel\\MainViewModel.cs",
               "RelativeToolTip": "ToDoApp\\ViewModel\\MainViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABZAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwA8AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-06T14:34:41.434Z",
               "EditorCaption": ""

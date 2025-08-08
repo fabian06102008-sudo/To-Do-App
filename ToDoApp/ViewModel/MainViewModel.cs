@@ -1,31 +1,43 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
+﻿using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ToDoApp.Model;
 using System.Text.Json;
 using System.Windows;
+using ToDoApp.Model;
 
 
 namespace ToDoApp.ViewModel
 {
     public class MainViewModel : INotifyPropertyChanged
     {
-        
+        ObservableCollection<Todo> _allTodos;
         public MainViewModel()
         {
-            _allTodos = new ObservableCollection<Todo>();
             Application.Current.Exit += OnApplicationExit;
 
-            using (StreamReader sr = new StreamReader("C:\\Users\\JuanR\\Desktop\\C#\\Projects\\ToDoApp\\ToDoApp\\tasksList.json"))
+            try
             {
-                string json = sr.ReadToEnd();
-                _allTodos = JsonSerializer.Deserialize<ObservableCollection<Todo>>(json);
+                using (StreamReader sr = new StreamReader("C:\\Users\\JuanR\\Desktop\\C#\\Projects\\ToDoApp\\ToDoApp\\tasksList.json"))
+                {
+                    string json = sr.ReadToEnd();
+                    _allTodos = JsonSerializer.Deserialize<ObservableCollection<Todo>>(json);
+
+                    if (_allTodos == null)
+                    {
+                        _allTodos = new ObservableCollection<Todo>();
+                    }
+                }
             }
+            catch (JsonException jex)
+            {
+                _allTodos = new ObservableCollection<Todo>();
+            }
+
+            catch (Exception)
+            {
+                _allTodos = new ObservableCollection<Todo>();
+            }
+
         }
 
         public event PropertyChangedEventHandler? PropertyChanged;
@@ -34,7 +46,6 @@ namespace ToDoApp.ViewModel
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
-        private ObservableCollection<Todo> _allTodos;
         public ObservableCollection<Todo> AllTodos
         {
             get { return _allTodos; }
@@ -47,7 +58,17 @@ namespace ToDoApp.ViewModel
 
         private void OnApplicationExit(object sender, ExitEventArgs e)
         {
+            SaveTasks();
+        }
 
+        private void SaveTasks()
+        {
+            using (StreamWriter sw = new StreamWriter("C:\\Users\\JuanR\\Desktop\\C#\\Projects\\ToDoApp\\ToDoApp\\tasksList.json"))
+            {
+                string jsonString = JsonSerializer.Serialize(AllTodos);
+
+                sw.WriteLine(jsonString);
+            }
         }
 
     }
