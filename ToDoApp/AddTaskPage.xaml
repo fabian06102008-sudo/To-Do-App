@@ -47,11 +47,12 @@
                         <Label Content="Name of the task" FontSize="15" FontWeight="Medium" />
                         <TextBox BorderThickness="2" x:Name="TaskNameAdd"/>
 
-                        <Button Content="Add task" Width="60" Margin="20" Background="IndianRed" Foreground="White" FontWeight="Medium" Click="OnAddBtn_Click"/>
+                        <Button Content="Add task" Width="242" Margin="20" Background="IndianRed" Foreground="White" FontWeight="Medium" Click="OnAddBtn_Click" Height="31" FontSize="16"/>
 
                     </StackPanel>
 
                 </Grid>
+                <Image x:Name="EmtpyTaskWarning" HorizontalAlignment="Left" Height="232" Margin="146,75,0,0" Grid.Row="1" VerticalAlignment="Top" Width="367" Source="/Images/Warning Message Empty Tasks.png" Visibility="Collapsed"/>
             </Grid>
 
 

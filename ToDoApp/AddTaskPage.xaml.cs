@@ -32,15 +32,31 @@ namespace ToDoApp
 
         private void OnAddBtn_Click(object sender, RoutedEventArgs e)
         {
-            Todo todo = new Todo()
+            //if Task Name Textbox is NOT empty
+            if (!string.IsNullOrWhiteSpace(TaskNameAdd.Text))
             {
-                Description = TaskNameAdd.Text,
-                IsDone = false
-            };
+                Todo todo = new Todo()
+                {
+                    Description = TaskNameAdd.Text,
+                    IsDone = false
+                };
 
-            ViewModel.AllTodos.Add(todo);
+                ViewModel.AllTodos.Add(todo);
 
-            TaskNameAdd.Text = "";
+                TaskNameAdd.Text = "";
+            
+                //Hide Warning Image
+                EmtpyTaskWarning.Visibility = Visibility.Collapsed;
+
+            }
+            else //if Task Name Textbox is empty
+            {
+                //Show Warning Image
+                EmtpyTaskWarning.Visibility = Visibility.Visible;
+            }
+        
+        
+        
         }
     }
 }

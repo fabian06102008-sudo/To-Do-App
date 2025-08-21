@@ -53,7 +53,7 @@ namespace ToDoApp.View.UserControls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ToDoApp;V1.0.0.0;component/view/usercontrols/leftmenubar.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ToDoApp;component/view/usercontrols/leftmenubar.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\View\UserControls\LeftMenuBar.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -8,4 +8,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Warning Message Empty Tasks.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Warning Message Empty Tasks.png" />
+  </ItemGroup>
+
 </Project>
